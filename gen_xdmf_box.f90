@@ -15,7 +15,7 @@ ixdmf = 99
 nflds = (fldend-fldstart)/nskip + 1
 indent = 0
 write(islicechar,'(I4.4)') islice 
-open(unit = ixdmf, file = 'view_box_'//trim(casename)//'.xdmf',form='formatted')
+open(unit = ixdmf, file = 'view_box_'//trim(casename)//'.xmf',form='formatted')
 write(unit=ixdmf,fmt='(A)') '<?xml version="1.0" ?>'
 write(unit=ixdmf,fmt='(A)') '<!DOCTYPE Xdmf SYSTEM "Xdmf.dtd" []>'
 write(unit=ixdmf,fmt='(A)') '<Xdmf xmlns:xi="http://www.w3.org/2001/XInclude" Version="2.0">'

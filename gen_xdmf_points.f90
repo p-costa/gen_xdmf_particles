@@ -18,7 +18,7 @@ do ie = 1,ne
     ctypes(ie) = 'Vector'
   endif
 enddo
-open(unit = ixdmf, file = 'view_points_'//trim(casename)//'.xdmf',form='formatted')
+open(unit = ixdmf, file = 'view_points_'//trim(casename)//'.xmf',form='formatted')
 write(unit=ixdmf,fmt='(A)') '<?xml version="1.0" ?>'
 write(unit=ixdmf,fmt='(A)') '<!DOCTYPE Xdmf SYSTEM "Xdmf.dtd" []>'
 write(unit=ixdmf,fmt='(A)') '<Xdmf xmlns:xi="http://www.w3.org/2001/XInclude" Version="2.0">'
