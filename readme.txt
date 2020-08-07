@@ -9,6 +9,6 @@ s1(1), ..., s1(n)                         --> for scalar data
 
 these are the routines I used for efficiently visualizing O(10^6) spherical particles with point data stored in binary files.
 
-written in FORTRAN90 some years ago.
+written in Fortran 90 some years ago.
 
 Pedro Costa (p.simoes.costa@gmail.com)
